@@ -10,6 +10,9 @@ import filters from './plugins/filters'
 import Vuex from 'vuex'
 import store from './store/store'
 import axios from 'axios'
+import Antd from 'ant-design-vue'
+import 'ant-design-vue/dist/antd.css'
+
 Object.defineProperty(Vue.prototype, '$axios', {value: axios})
 Vue.use(filters)
 router.beforeEach((to, from, next) => {
@@ -20,6 +23,7 @@ router.afterEach(transition => {
   NProgress.done()
 })
 Vue.use(Vuex)
+Vue.use(Antd)
 Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({

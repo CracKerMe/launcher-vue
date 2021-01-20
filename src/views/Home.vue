@@ -1,7 +1,10 @@
 <template>
-  <div class="home">
+  <div class="home poa">
     <div class="bg-wrap">
       <img src="https://img-operation.csdnimg.cn/csdn/silkroad/img/1607000456025.jpg?x-oss-process=image/resize,h_1080,w_1920/format,webp" alt="">
+    </div>
+    <div class="content poa">
+      <div class="search-main"></div>
     </div>
   </div>
 </template>
@@ -18,8 +21,10 @@ export default {
 
 <style lang="stylus" scoped>
 .home
-  background rgb(102, 102, 102)
+  background rgba(0,0,0,0.65)
   overflow hidden
+  width 100%
+  height 100%
   .bg-wrap
     user-select none
     img

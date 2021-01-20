@@ -10,4 +10,11 @@ https://img-operation.csdnimg.cn/csdn/silkroad/img/1607928159867.jpg?x-oss-proce
 ### 背景原图
 https://img-operation.csdnimg.cn/csdn/silkroad/img/1607928159867.jpg
 
+## JS 修改 css变量
+document.documentElement.style.setProperty('--bgblur', 10)
+
+## 搜索引擎  %s 替换 为输入的词
+```json
+[{title:"Baidu",link:"https://www.baidu.com/s?wd=%s",icon:"baidu"},{title:"Google",link:"https://www.google.com/search?q=%s",icon:"google"},{title:"必应",link:"https://cn.bing.com/search?q=%s",icon:"bing"},{title:"维基百科",link:"https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s",icon:"wiki"},{title:"GitHub",link:"https://github.com/search?q=%s",icon:"github"},{title:"知乎",link:"https://www.zhihu.com/search?type=content&q=%s",icon:"zhihu"},{title: "CSDN",link:"https://so.csdn.net/so/search/s.do?q=%s",icon:"csdn"},{title:"Stackoverflow",link:"https://stackoverflow.com/search?q=%s",icon:"stackoverflow"}]
+```
 
