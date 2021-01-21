@@ -11,8 +11,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "ant-design-vue": "^1.7.2",
     "axios": "0.18.0",
+    "jsonp": "^0.2.1",
     "lodash": "^4.17.20",
     "nprogress": "^0.2.0",
     "vue": "^2.5.2",

@@ -18,3 +18,5 @@ document.documentElement.style.setProperty('--bgblur', 10)
 [{"title":"Baidu","link":"https://www.baidu.com/s?wd=%s","icon":"baidu"},{"title":"Google","link":"https://www.google.com/search?q=%s","icon":"google"},{"title":"必应","link":"https://cn.bing.com/search?q=%s","icon":"bing"},{"title":"维基百科","link":"https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s","icon":"wiki"},{"title":"GitHub","link":"https://github.com/search?q=%s","icon":"github"},{"title":"知乎","link":"https://www.zhihu.com/search?type=content&q=%s","icon":"zhihu"},{"title": "CSDN","link":"https://so.csdn.net/so/search/s.do?q=%s","icon":"csdn"},{"title":"Stackoverflow","link":"https://stackoverflow.com/search?q=%s","icon":"stackoverflow"}]
 ```
 
+## 实时搜索下拉
+https://www.baidu.com/sugrec?p=3&ie=utf-8&json=1&prod=pc&from=pc_web&wd=${关键字}&cb=
