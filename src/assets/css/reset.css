@@ -15,6 +15,7 @@ input[type='search'] {-webkit-appearance: none;}
 .pof {position: fixed;}
 .clearfix:after{content: '';clear: both;display: block;height: 0;visibility: hidden;font-size: 0;line-height: 0;}
 .flex {display: flex;}
+.flex-center {display: flex;justify-content: center;align-items: center;}
 .fl {float: left;}
 .fr {float: right;}
 .ovh {overflow: hidden;}
